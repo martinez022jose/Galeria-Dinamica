@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&display=swap');
+
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background: #ededed;
+	font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Fredoka One', cursive;
+	
+}
+
+/*Trabajamos sobre el archivo panelDeControl.php*/
+/*Trabajamos sobre el header*/
+header{
+	width: 100%;
+	background: rgba(0,0,0,0.9);
+}
+
+header .portada{
+	color:white;
+	padding: 20px;
+	border-bottom: 1px solid white;
+	text-align: center;
+
+}
+
+header nav{
+	display: flex;
+}
+
+header nav a{
+	text-decoration: none;
+	color:white;
+	padding: 25px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+header nav a:hover{
+	color:black;
+	background: #ededed;
+	margin: 1px;
+}
+
+section{
+	width: 100%;
+}
+
+section .formRegistro{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	margin:auto;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	color:white;
+	padding: 50px;
+	margin-top: 40px;
+	border-radius: 10px;
+	border:1px solid white;
+
+} 
+
+section .formRegistro .cajaInformacion{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+section .formRegistro .cajaInformacion h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+section .formRegistro .cajaInformacion p{
+	font-size: 20px;
+	margin-bottom: 40px;
+
+}
+
+section .formRegistro .cajaItems{
+	display: flex;
+	flex-direction: column;
+}
+
+section .formRegistro .cajaItems label{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+section .formRegistro .cajaItems input{
+	width: 500px;
+	margin-bottom: 20px;
+	height: 30px;
+	font-size: 15px;
+	padding: 10px;
+}
+
+section .formRegistro .cajaItems textarea{
+	max-width: 500px;
+	min-width: 500px;
+	max-height: 300px;
+	min-height: : 200px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding: 10px;
+
+}
+
+section .formRegistro .cajaItems #registrar{
+	display: flex;
+	margin:auto;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 50px;
+	color:white;
+	background: grey;
+	border:1px solid white;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+section .formRegistro .cajaItems #registrar:hover{
+    color:grey;
+	background: black;
+}
+
+/*Trabajamos sobre el archivo index.php*/
+
+header .encabezado{
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 50px;
+}
+
+header .encabezado h1{
+	font-size: 30px;
+	color: white
+}
+
+section .listaDeImagenes{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: auto;
+}
+
+section .listaDeImagenes .item{
+	width: calc( 25% - 10px);
+	padding: 20px;
+	margin:5px;
+	border:1px solid rgba(0,0,0,0.5);
+}
+
+section .listaDeImagenes .item .cajaImagen{
+	width: 100%;
+	height: 100%;
+}
+
+section .listaDeImagenes .item .cajaImagen img{
+	width: 100%;
+	height: 100%;
+}
+
+
