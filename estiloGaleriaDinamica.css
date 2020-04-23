@@ -200,12 +200,16 @@ section .listadoImagenes{
 	flex-direction: column;
 	width: 70%;
 	margin:auto;
+	border: 1px solid black;
+	margin-top: 20px;
+	border-radius: 10px;
 }
 
 section .listadoImagenes .title{
 	text-align: center;
-	margin-bottom: 30px;
-	margin-top: 40px;
+	font-size: 20px;
+	height: 60px;
+	padding: 10px;
 
 }
 
@@ -213,9 +217,34 @@ section .listadoImagenes .fila{
 	display: flex;
 	height: 70px;
 	width: 100%;
-	border-bottom: 1px solid black;
 	justify-content: center;
 	align-items: center;
+	padding: 10px;
+}
+
+section .listadoImagenes .filaPrincipal{
+	display: flex;
+	background: #7A8BDD;
+	color:white;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	height: 70px;
+}
+
+section .listadoImagenes .filaPrincipal .encabezadoIdImagen{
+	width: 30%;
+
+}
+
+section .listadoImagenes .filaPrincipal .encabezadoDescripcion{
+	width: 60%;
+
+}
+
+section .listadoImagenes .filaPrincipal .encabezadoUrl{
+	width: 10%;
+
 }
 
 section .listadoImagenes .fila .idImagen{
@@ -228,7 +257,7 @@ section .listadoImagenes .fila .descripcion{
 
 section .listadoImagenes .fila .url{
 	height: 60px;
-	width: 60px;
+	width: 10%;
 
 }
 

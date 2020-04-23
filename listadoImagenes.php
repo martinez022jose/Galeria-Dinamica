@@ -25,10 +25,10 @@ include("conexion.php")
 				<h1>Listado De Imagenes</h1>
 			</div>
 			
-			<div class="fila">
-					<div class=idImagen >Id Imagen</div>
-					<div class="descripcion">Descripcion</div>
-					<div class="url">Imagen</div>
+			<div class="filaPrincipal">
+					<div class="encabezadoIdImagen">Id Imagen</div>
+					<div class="encabezadoDescripcion">Descripcion</div>
+					<div class="encabezadoUrl">Imagen</div>
 		    </div>
 
 			<?php 
