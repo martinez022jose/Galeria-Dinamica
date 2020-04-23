@@ -14,10 +14,11 @@ body{
 }
 
 /*Trabajamos sobre el archivo panelDeControl.php*/
+
 /*Trabajamos sobre el header*/
 header{
 	width: 100%;
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,0.8);
 }
 
 header .portada{
@@ -36,8 +37,7 @@ header nav a{
 	text-decoration: none;
 	color:white;
 	padding: 25px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin:1px;
 }
 
 header nav a:hover{
@@ -57,8 +57,8 @@ section .formRegistro{
 	margin:auto;
 	justify-content: center;
 	align-items: center;
-	background: black;
-	color:white;
+	background: #4E5979;
+	color:black;
 	padding: 50px;
 	margin-top: 40px;
 	border-radius: 10px;
@@ -139,7 +139,7 @@ section .formRegistro .cajaItems #registrar{
 	width: 100px;
 	height: 50px;
 	color:white;
-	background: grey;
+	background: black;
 	border:1px solid white;
 	border-radius: 20px;
 	margin-bottom: 30px;
@@ -147,8 +147,8 @@ section .formRegistro .cajaItems #registrar{
 }
 
 section .formRegistro .cajaItems #registrar:hover{
-    color:grey;
-	background: black;
+    color:black;
+	background: white;
 }
 
 /*Trabajamos sobre el archivo index.php*/
