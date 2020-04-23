@@ -14,7 +14,7 @@ include("conexion.php");
 			<h1>Galeria De Imagenes</h1>
 		</div>
 	</header>
-	<div class="separador"></div>
+	
 	<section>
 		<div class="listaDeImagenes">
 			<?php

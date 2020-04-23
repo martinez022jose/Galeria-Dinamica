@@ -65,6 +65,25 @@ section .formRegistro{
 	border:1px solid white;
 
 } 
+section .formRegistro .mensajeExitoso{
+	height: 30px;
+	font-size: 15px;
+	color:white;
+	background: green;
+	padding: 5px;
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+section .formRegistro .error{
+	height: 30px;
+	font-size: 15px;
+	color:white;
+	background: red;
+	padding: 5px;
+	width: 500px;
+	margin-bottom: 10px;
+}
 
 section .formRegistro .cajaInformacion{
 	display: flex;
@@ -154,14 +173,14 @@ section .listaDeImagenes{
 
 section .listaDeImagenes .item{
 	width: calc( 25% - 10px);
-	padding: 20px;
+	padding: 10px;
 	margin:5px;
 	border:1px solid rgba(0,0,0,0.5);
 }
 
 section .listaDeImagenes .item .cajaImagen{
 	width: 100%;
-	height: 100%;
+	height:70%;
 }
 
 section .listaDeImagenes .item .cajaImagen img{
@@ -169,4 +188,52 @@ section .listaDeImagenes .item .cajaImagen img{
 	height: 100%;
 }
 
+section .listaDeImagenes .item .descripcionImagen{
+	height: 30%;
+	padding: 5px;
+}
+
+/*Trabajmos sobr eel archivo listadoImagenes.php*/
+
+section .listadoImagenes{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin:auto;
+}
+
+section .listadoImagenes .title{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 40px;
+
+}
+
+section .listadoImagenes .fila{
+	display: flex;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	justify-content: center;
+	align-items: center;
+}
+
+section .listadoImagenes .fila .idImagen{
+	width: 30%
+}
+
+section .listadoImagenes .fila .descripcion{
+	width: 60%;
+}
+
+section .listadoImagenes .fila .url{
+	height: 60px;
+	width: 60px;
+
+}
+
+section .listadoImagenes .fila .url img{
+	width: 100%;
+	height: 100%;
+}
 
