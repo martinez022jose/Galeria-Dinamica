@@ -63,8 +63,10 @@ section .formRegistro{
 	color:black;
 	padding: 50px;
 	margin-top: 40px;
+	margin-bottom: 40px;
 	border-radius: 10px;
 	border:1px solid white;
+	box-shadow: 10px -10px 10px grey;
 
 } 
 section .formRegistro .mensajeExitoso{
@@ -138,19 +140,19 @@ section .formRegistro .cajaItems #registrar{
 	margin:auto;
 	justify-content: center;
 	align-items: center;
-	width: 100px;
+	width: 150px;
 	height: 50px;
-	color:white;
-	background: black;
+	color:black;
+	background: white;
 	border:1px solid white;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin-bottom: 30px;
 	font-size: 20px;
 }
 
 section .formRegistro .cajaItems #registrar:hover{
-    color:black;
-	background: white;
+    color:white;
+	background: black;
 }
 
 /*Trabajamos sobre el archivo index.php*/
@@ -285,6 +287,7 @@ section .formDelete{
 	margin-top: 40px;
 	border-radius: 10px;
 	border:1px solid white;
+	box-shadow: 10px -10px 10px grey;
 }
 section .formDelete .encabezado{
     text-align: center;
@@ -317,15 +320,22 @@ section .formDelete #delete{
 	margin:auto;
 	justify-content: center;
 	align-items: center;
-	width: 100px;
+	width: 150px;
 	height: 50px;
-	color:white;
-	background: black;
+	color:black;
+	background: white;
 	border:1px solid white;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin-bottom: 30px;
 	font-size: 20px;
 }
+
+section .formDelete #delete:hover{
+	background: black;
+	color:white;
+}
+
+
 
 section .formDelete .mensajeExitoso{
 	height: 30px;
