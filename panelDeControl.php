@@ -12,7 +12,7 @@
 		<nav>
 			<a href="registroItem.php">Resgitro Imagen</a>
 			<a href="listadoImagenes.php">Eliminar Imagen Por Codigo</a>
-			<a href="#">Listado De Imagenes</a>
+			<a href="eliminarImagen.php">Eliminar Imagen</a>
 			
 		</nav>
 	</header>

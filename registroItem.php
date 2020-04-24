@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Resgistro Item</title>
+	<title>Panel De Control</title>
 	<link rel="stylesheet" type="text/css" href="estiloGaleriaDinamica.css">
 </head>
 <body>
@@ -12,12 +12,12 @@
 		<nav>
 			<a href="registroItem.php">Resgitro Imagen</a>
 			<a href="listadoImagenes.php">Listado De Imagenes</a>
-			<a href="#">Eliminar Imagen</a>
+			<a href="eliminarImagen.php">Eliminar Imagen</a>
 		</nav>
 	</header>
 
 	<section>
-		<form method="post" action="<?php htmlspecialchars($_SERVER['PHP_SELF']);?>" enctype="multipart/form-data" class="formRegistro">
+		<form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']);?>" enctype="multipart/form-data" class="formRegistro">
 			<div class="cajaInformacion">
 				<h1>Registro Imagen</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>

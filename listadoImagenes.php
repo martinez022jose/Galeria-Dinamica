@@ -16,7 +16,7 @@ include("conexion.php")
 		<nav>
 			<a href="registroItem.php">Resgitro Imagen</a>
 			<a href="listadoImagenes.php">Listado De Imagenes</a>
-			<a href="#">Eliminar Imagen</a>
+			<a href="eliminarImagen.php">Eliminar Imagen</a>
 		</nav>
 	</header>
 	<section>
