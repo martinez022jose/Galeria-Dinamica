@@ -1,12 +1,12 @@
 <?php
-include("conexion.php")
+include("../Conexion/conexion.php");
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Listado De Imagenes</title>
-	<link rel="stylesheet" type="text/css" href="estiloGaleriaDinamica.css">
+	<link rel="stylesheet" type="text/css" href="../estiloGaleriaDinamica.css">
 </head>
 <body>
 	<header>
@@ -14,6 +14,7 @@ include("conexion.php")
 			<h1>Panel de control</h1>
 		</div>
 		<nav>
+			<a href="panelDeControl.php">Inicio</a>
 			<a href="registroItem.php">Resgitro Imagen</a>
 			<a href="listadoImagenes.php">Listado De Imagenes</a>
 			<a href="eliminarImagen.php">Eliminar Imagen</a>
@@ -26,9 +27,10 @@ include("conexion.php")
 			</div>
 			
 			<div class="filaPrincipal">
-					<div class="encabezadoIdImagen">Id Imagen</div>
-					<div class="encabezadoDescripcion">Descripcion</div>
-					<div class="encabezadoUrl">Imagen</div>
+					<div class="encabezadoPrincipal">Id Imagen</div>
+					<div class="encabezadoPrincipal">Descripcion</div>
+					<div class="encabezadoPrincipal">Imagen</div>
+					<div class="encabezadoPrincipal">funcionalidad</div>
 		    </div>
 
 			<?php 
@@ -37,11 +39,16 @@ include("conexion.php")
 
 			while($fila =mysqli_fetch_array($resultado)){?>
 				<div class="fila">
-					<div class=idImagen ><?php echo $fila['idImagen'] ?></div>
-					<div class="descripcion"><?php echo $fila['descripcion'] ?></div>
+					<div class="encabezadoSecundario" ><?php echo $fila['idImagen'] ?></div>
+					<div class="encabezadoSecundario"><?php echo $fila['descripcion'] ?></div>
 					<div class="url">
 						<img src="<?php echo $fila['url'] ?>">
 					</div>
+					<div class="encabezadoSecundario">
+						<a href="#">Eliminar</a>
+					    <a href="#">Modificar</a>
+					</div>
+					
 					
 				</div>
 			<?php }?>

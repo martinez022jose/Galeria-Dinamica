@@ -1,12 +1,12 @@
 <?php  
-include("conexion.php");
+include("../Conexion/conexion.php");
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Galeria De Fotos</title>
-	<link rel="stylesheet" type="text/css" href="estiloGaleriaDinamica.css">
+	<link rel="stylesheet" type="text/css" href="../estiloGaleriaDinamica.css">
 </head>
 <body>
 	<header>

@@ -1,6 +1,6 @@
 <?php
 
-include ("conexion.php");
+include ("../Conexion/conexion.php");
 $errores = Array();
 $mensajeExitoso = Array();
 

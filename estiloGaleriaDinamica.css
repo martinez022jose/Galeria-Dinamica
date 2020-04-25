@@ -12,10 +12,63 @@ body{
     font-family: 'Fredoka One', cursive;
 	
 }
+/*Trabajamos sobre el archivo index.php*/
 
+header .encabezado{
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 50px;
+}
+
+header .encabezado h1{
+	font-size: 30px;
+	color: white
+}
+
+section .listaDeImagenes{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: auto;
+}
+
+section .listaDeImagenes .item{
+	width: calc( 25% - 10px);
+	padding: 10px;
+	margin:5px;
+	border:1px solid rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 7px grey;
+	border-radius: 10px;
+}
+
+section .listaDeImagenes .item .cajaImagen{
+	width: 100%;
+	height:60%;
+}
+
+section .listaDeImagenes .item .cajaImagen img{
+	width: 100%;
+	height: 100%;
+}
+
+section .listaDeImagenes .item .descripcionImagen{
+	height: 40%;
+	padding: 5px;
+}
 
 
 /*Trabajamos sobre el archivo panelDeControl.php*/
+
+section .bienvenida{
+	background: #7A8BDD;
+	color:white;
+	padding: 25px;
+	text-align: center;
+}
+
+section .bienvenida h1{
+	font-size: 20px;
+}
 
 /*Trabajamos sobre el header*/
 header{
@@ -59,7 +112,8 @@ section .formRegistro{
 	margin:auto;
 	justify-content: center;
 	align-items: center;
-	background: #4E5979;
+	/*background: #4E5979;*/
+	background: #7A8BDD;
 	color:black;
 	padding: 50px;
 	margin-top: 40px;
@@ -155,51 +209,7 @@ section .formRegistro .cajaItems #registrar:hover{
 	background: black;
 }
 
-/*Trabajamos sobre el archivo index.php*/
-
-header .encabezado{
-	text-align: center;
-	padding: 25px;
-	margin-bottom: 50px;
-}
-
-header .encabezado h1{
-	font-size: 30px;
-	color: white
-}
-
-section .listaDeImagenes{
-	display: flex;
-	flex-wrap: wrap;
-	width: 70%;
-	margin: auto;
-}
-
-section .listaDeImagenes .item{
-	width: calc( 25% - 10px);
-	padding: 10px;
-	margin:5px;
-	border:1px solid rgba(0,0,0,0.5);
-	box-shadow: 10px 10px 7px grey;
-	border-radius: 10px;
-}
-
-section .listaDeImagenes .item .cajaImagen{
-	width: 100%;
-	height:60%;
-}
-
-section .listaDeImagenes .item .cajaImagen img{
-	width: 100%;
-	height: 100%;
-}
-
-section .listaDeImagenes .item .descripcionImagen{
-	height: 40%;
-	padding: 5px;
-}
-
-/*Trabajmos sobr eel archivo listadoImagenes.php*/
+/*Trabajamos sobr eel archivo listadoImagenes.php*/
 
 section .listadoImagenes{
 	display: flex;
@@ -238,29 +248,28 @@ section .listadoImagenes .filaPrincipal{
 	height: 70px;
 }
 
-section .listadoImagenes .filaPrincipal .encabezadoIdImagen{
-	width: 30%;
-
+section .listadoImagenes .filaPrincipal .encabezadoPrincipal{
+	width: 25%;
+	
+	text-align: center;
 }
 
-section .listadoImagenes .filaPrincipal .encabezadoDescripcion{
-	width: 60%;
-
+section .listadoImagenes .fila .encabezadoSecundario{
+	width: 25%;
+	margin: 20px;
+	text-align: center;
+	
 }
 
-section .listadoImagenes .filaPrincipal .encabezadoUrl{
-	width: 10%;
-
+section .listadoImagenes .fila .encabezadoSecundario a{
+	text-decoration: none;
+	color:black;
+	margin: 5px;
 }
 
-section .listadoImagenes .fila .idImagen{
-	width: 30%
+section .listadoImagenes .fila .encabezadoSecundario a:hover{
+	color:blue;
 }
-
-section .listadoImagenes .fila .descripcion{
-	width: 60%;
-}
-
 section .listadoImagenes .fila .url{
 	height: 60px;
 	width: 10%;
@@ -281,7 +290,7 @@ section .formDelete{
 	margin:auto;
 	justify-content: center;
 	align-items: center;
-	background: #4E5979;
+	background: #7A8BDD;
 	color:black;
 	padding: 50px;
 	margin-top: 40px;

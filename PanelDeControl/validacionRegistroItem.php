@@ -1,5 +1,5 @@
 <?php
-include("conexion.php");
+include("../Conexion/conexion.php");
 
 //Declaracion de variables 
 $errores = array();
@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
 function obtenerValores(&$idImagen,&$descripcion,&$miArchivo){
 	$idImagen=$_POST['codigo'];
 	$descripcion=$_POST['descripcion'];
-	$ruta ="Imagenes/";
+	$ruta ="../Imagenes/";
     $miArchivo = $_FILES['imagen']['name'];
     move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta.$_FILES['imagen']['name']);
     $miArchivo = $ruta.$miArchivo;
