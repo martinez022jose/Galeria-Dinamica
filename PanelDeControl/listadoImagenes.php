@@ -45,8 +45,7 @@ include("../Conexion/conexion.php");
 						<img src="<?php echo $fila['url'] ?>">
 					</div>
 					<div class="encabezadoSecundario">
-						<a href="eliminarDirecto.php?idImagen=<?php echo $fila['idImagen']?>">Eliminar</a>
-					    <a href="#">Modificar</a>
+						<a href="eliminacionDirecta.php?idImagen=<?php echo $fila['idImagen']?>">Eliminar</a>
 					</div>
 				</div>
 			<?php }?>

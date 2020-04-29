@@ -13,7 +13,7 @@
 			<a href="panelDeControl.php">Inicio</a>
 			<a href="registroItem.php">Resgitro Imagen</a>
 			<a href="listadoImagenes.php">Listado De Imagenes</a>
-			<a href="eliminarImagen.php">Eliminar Imagen</a>
+			<a href="eliminarImagen.php">Eliminar Imagen Segun</a>
 		</nav>
 	</header>
 
